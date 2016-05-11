@@ -11,6 +11,8 @@
 		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 		.tg .tg-4eph{background-color:#f9f9f9}
 	</style>
+	<link href="<c:url value='/resources/bootstrap-3.3.6-dist/css/bootstrap.css'  />" rel="stylesheet"/>
+	<script src="<c:url value='/resources/bootstrap-3.3.6-dist/js/bootstrap.js' />"></script>
 </head>
 <body>
 <h1>
@@ -71,7 +73,7 @@
 <br>
 <h3>Persons List</h3>
 <c:if test="${!empty listPersons}">
-	<table class="tg">
+	<table class="table">
 	<tr>
 		<th width="80">Person ID</th>
 		<th width="120">Person Name</th>
